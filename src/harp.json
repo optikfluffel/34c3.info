@@ -1,0 +1,47 @@
+{
+  "globals": {
+    "title": "34c3 tuwat!",
+    "description": "Shortcuts to 34c3 things™️.",
+    "shortcuts": [{
+      "title": "📱 iOS App",
+      "description": "„Congress – 34C3 #tuwat“ im App Store",
+      "url": "https://itunes.apple.com/de/app/congress-34c3-tuwat/id941205524"
+    }, {
+      "title": "📱 Android App",
+      "description": "34C3 Schedule - Android Apps on Google Play",
+      "url": "https://play.google.com/store/apps/details?id=info.metadude.android.congress.schedule"
+    }, {
+      "title": "📋 Fahrplan",
+      "description": "Schedule 34th Chaos Communication Congress",
+      "url": "https://events.ccc.de/congress/2017/Fahrplan/"
+    }, {
+      "title": "🎥 Live Streams",
+      "description": "",
+      "url": "#"
+    }, {
+      "title": "🗺 Indoor Map",
+      "description": "",
+      "url": "#"
+    }, {
+      "title": "🎉 Party TimeTable",
+      "description": "",
+      "url": "#"
+    }, {
+      "title": "🚃 LVB Connection Info",
+      "description": "Fahrplanauskunft - Leipziger Verkehrsbetriebe",
+      "url": "https://www.l.de/verkehrsbetriebe/fahrplan"
+    }, {
+      "title": "ℹ️ Wiki",
+      "description": "34C3 Wiki",
+      "url": "https://events.ccc.de/congress/2017/wiki/index.php/Main_Page"
+    }, {
+      "title": "🚨 Awareness",
+      "description": "Awarenessteam (DECT 113) in 34C3 Wiki",
+      "url": "https://events.ccc.de/congress/2017/wiki/index.php/Static:Awareness"
+    }, {
+      "title": "🕵️‍♀️ Lost & Found",
+      "description": "",
+      "url": "#"
+    }]
+  }
+}

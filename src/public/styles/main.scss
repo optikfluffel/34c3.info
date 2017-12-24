@@ -1,0 +1,85 @@
+@import "_colors";
+@import "_poly-fluid-sizing";
+
+@mixin min-width($width) {
+  @media screen and (min-width: $width) {
+    @content;
+  }
+}
+
+$box-margin: 0.25rem;
+$negative-box-margin: 0.25rem;
+
+// styles
+html {
+  $map: (
+    320px: 16px,
+    576px: 20px,
+    768px: 24px,
+    992px: 32px
+  );
+  @include poly-fluid-sizing('font-size', $map);
+}
+
+body {
+  font-family: "Helvetica";
+  padding: 1rem 1rem 0;
+  margin: 0 auto;
+  max-width: 64rem;
+}
+
+header {
+  text-align: center;
+  border-bottom: $dark-red solid 1px;
+
+  h1 {
+    font-size: 4rem;
+    margin: 0;
+    color: $dark-red;
+  }
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.shortcut {
+  box-sizing: border-box;
+  padding: $box-margin;
+
+  a {
+    padding: $box-margin;
+    text-decoration: none;
+    text-align: center;
+    background: $dark-red;
+    color: $white;
+    transition: 0.2s;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+
+    &:hover {
+      background: $white;
+      color: $dark-red;
+    }
+  }
+}
+
+@include min-width(320px) {
+  .shortcut {
+    flex: 0 100%;
+  }
+}
+
+@include min-width(576px) {
+  .shortcut {
+    flex: 0 50%;
+  }
+}
+
+@include min-width(992px) {
+  .shortcut {
+    flex: 0 33%;
+  }
+}

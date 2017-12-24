@@ -1,0 +1,6 @@
+!= partial("layout/_header", { title: title })
+
+main
+  - var selected = shortcuts.filter(s => s.url !== "#");
+  each shortcut in selected
+    != partial("layout/_shortcut", { shortcut: shortcut })

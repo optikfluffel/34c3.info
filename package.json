@@ -1,0 +1,31 @@
+{
+  "name": "34c3_info",
+  "version": "0.0.1",
+  "description": "",
+  "main": "gulpfile.js",
+  "engines": {
+    "node": ">=8.0"
+  },
+  "scripts": {
+    "start": "./node_modules/gulp/bin/gulp.js",
+    "build": "./node_modules/harp/bin/harp compile ./src ./docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pre-commit": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "ssh://gitea@source.fluffel.io:4223/optikfluffel/34c3_info.git"
+  },
+  "keywords": [],
+  "author": "@optikfluffel",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.21.0",
+    "gulp": "^3.9.1",
+    "harp": "^0.25.0",
+    "pre-commit": "^1.2.2",
+    "standard": "^10.0.3"
+  }
+}
