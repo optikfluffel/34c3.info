@@ -3,13 +3,17 @@
     "title": "34c3 tuwat!",
     "description": "Shortcuts to 34c3 things™️.",
     "shortcuts": [{
-      "title": "📱 iOS App",
+      "title": "📱 34C3 (iOS)",
       "description": "„Congress – 34C3 #tuwat“ im App Store",
       "url": "https://itunes.apple.com/de/app/congress-34c3-tuwat/id941205524"
     }, {
-      "title": "📱 Android App",
+      "title": "📱 34C3 (Android)",
       "description": "34C3 Schedule - Android Apps on Google Play",
       "url": "https://play.google.com/store/apps/details?id=info.metadude.android.congress.schedule"
+    }, {
+      "title": "📱 Giggity (Android)",
+      "description": "Giggity (schedule viewer) - Android Apps on Google Play",
+      "url": "https://play.google.com/store/apps/details?id=net.gaast.giggity"
     }, {
       "title": "📋 Fahrplan",
       "description": "Schedule 34th Chaos Communication Congress",
