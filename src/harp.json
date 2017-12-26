@@ -39,6 +39,10 @@
       "description": "Awarenessteam (DECT 113) in 34C3 Wiki",
       "url": "https://events.ccc.de/congress/2017/wiki/index.php/Static:Awareness"
     }, {
+      "title": "📈 Dashboard",
+      "description": "Grafana Dashboard of 34c3",
+      "url": "https://dashboard.congress.ccc.de"
+    }, {
       "title": "🕵️‍♀️ Lost & Found",
       "description": "",
       "url": "#"
