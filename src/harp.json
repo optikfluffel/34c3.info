@@ -23,6 +23,10 @@
       "description": "",
       "url": "#"
     }, {
+      "title": "ℹ️ Infodesk",
+      "description": "The information desk (or info desk) is the first and main place to contact if you have any kind of problem at the 34C3",
+      "url": "https://events.ccc.de/congress/2017/wiki/index.php/Static:Infodesk"
+    }, {
       "title": "🗺 Indoor Map",
       "description": "c3nav - Indoor Navigation for chaos events",
       "url": "https://34c3.c3nav.de/"
@@ -35,7 +39,7 @@
       "description": "Fahrplanauskunft - Leipziger Verkehrsbetriebe",
       "url": "https://www.l.de/verkehrsbetriebe/fahrplan"
     }, {
-      "title": "ℹ️ Wiki",
+      "title": "📚 Wiki",
       "description": "34C3 Wiki",
       "url": "https://events.ccc.de/congress/2017/wiki/index.php/Main_Page"
     }, {
