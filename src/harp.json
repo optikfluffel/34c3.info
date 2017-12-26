@@ -39,6 +39,10 @@
       "description": "34C3 Wiki",
       "url": "https://events.ccc.de/congress/2017/wiki/index.php/Main_Page"
     }, {
+      "title": "💬 IRC Chat",
+      "description": "Web client for #34c3 channel on irc.hackint.org",
+      "url": "https://webirc.hackint.org/#irc://irc.hackint.org/#34c3"
+    }, {
       "title": "🚨 Awareness",
       "description": "Awarenessteam (DECT 113) in 34C3 Wiki",
       "url": "https://events.ccc.de/congress/2017/wiki/index.php/Static:Awareness"
@@ -50,6 +54,10 @@
       "title": "😇 Engelsystem",
       "description": "Engelsystem 34c3",
       "url": "https://engelsystem.de/34c3/"
+    }, {
+      "title": "📊 IRC Stats",
+      "description": "34C3: IRC-Statistiken",
+      "url": "https://34c3.ircstats.laxu.de"
     }, {
       "title": "🕵️‍♀️ Lost & Found",
       "description": "",
