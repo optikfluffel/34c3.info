@@ -22,7 +22,7 @@ npm start
 
 ## 📦 Build
 
-_This also runs in a pre commit hook._
+_This also runs in a pre commit hook and should run on Travis._
 
 * To build the content of `./src` and put the resulting files into `./docs` run:
 
