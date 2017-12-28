@@ -1,11 +1,9 @@
 language: node_js
 node_js:
-  - "7"
+  - "8"
 
-before_install:
-  - "sudo apt-get update"
-  - "npm install"
-  - "npm run build"
+script:
+  - npm run build
 
 deploy:
   provider: pages
