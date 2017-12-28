@@ -2,12 +2,15 @@ language: node_js
 node_js:
   - "8"
 
+# build the docs folder instead of running "real" tests
 script:
   - npm run build
 
+# push to gh-pages branch
 deploy:
   provider: pages
   skip_cleanup: true
+  local_dir: docs
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   on:
     branch: master
