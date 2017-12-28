@@ -32,8 +32,6 @@ body {
 
 header {
   text-align: center;
-  // Removed for logo
-  //border-bottom: $dark-red solid 1px;
 
   h1 {
     font-size: 4rem;
@@ -106,5 +104,11 @@ main {
 
 @include min-width(1400px) {
   // Center vertically on large enough screens
-  html { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100%; }
+  html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+  }
 }
