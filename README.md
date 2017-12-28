@@ -22,7 +22,7 @@ npm start
 
 ## 📦 Build
 
-_This should run on Travis, every time something gets pushed to `master`._
+_This [runs on Travis](https://travis-ci.org/optikfluffel/34c3.info), every time something gets pushed to `master`._
 
 * To build the content of `./src` and put the resulting files into `./docs` run:
 
