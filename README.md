@@ -22,7 +22,7 @@ npm start
 
 ## 📦 Build
 
-_This also runs in a pre commit hook and should run on Travis._
+_This should run on Travis, every time something gets pushed to `master`._
 
 * To build the content of `./src` and put the resulting files into `./docs` run:
 
